@@ -68,7 +68,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     if (args.model == None or args.song==None):
         song = '../data/samples/rock.00019.wav'
-        model_file='../models/custom_cnn.h5'
+        model_file='../models/custom_cnn_2d.h5'
     else:
         song = args.song
         model_file=args.model
