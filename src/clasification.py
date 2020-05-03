@@ -271,5 +271,4 @@ from sklearn.metrics import accuracy_score
 print("majority voting system (acc) = {:.3f}".format(accuracy_score(label, scores_songs)))
 
 # Save the model
-model.save('../models/custom_cnn.h5')
-joblib.dump(model,'../models/custom_model_cnn.pkl')
+model.save('../models/model_cnn_2d.h5')
